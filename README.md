@@ -16,8 +16,8 @@ Arduino ide 1.6.5 with stable [2.0.0](http://arduino.esp8266.com/versions/2.0.0/
 Arduino ide 1.6.8 with stable [2.2.0](http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json) from ESP8266, please use https://github.com/luc-github/ESP3D/releases/tag/v0.6.2    
 Arduino ide 1.8.5 with stable [2.4.0](http://arduino.esp8266.com/versions/2.4.0/package_esp8266com_index.json) from ESP8266, please use https://github.com/luc-github/ESP3D/releases/tag/1.0 [![Build Status](https://travis-ci.org/luc-github/ESP3D.svg?branch=master)](https://travis-ci.org/luc-github/ESP3D)    
  
-<u>[Development version for 2.0 (asyncwebserver branch)](https://github.com/luc-github/ESP3D/tree/asyncwebserver) & [ESP-WEBUI (asyncUI branch)](https://github.com/luc-github/ESP3D-WEBUI/tree/asyncUI):</u>    
-Arduino ide 1.8.5 with git version from ESP8266 or ESP32 for 100% support of ESP32 : [![Build Status](https://travis-ci.org/luc-github/ESP3D.svg?branch=asyncwebserver)](https://travis-ci.org/luc-github/ESP3D)   
+<u>[Development version for 2.0 (2.0 branch)](https://github.com/luc-github/ESP3D/tree/2.0) & [ESP-WEBUI (2.0 branch)](https://github.com/luc-github/ESP3D-WEBUI/tree/2.0):</u>    
+Arduino ide 1.8.5 with git version from ESP8266 or ESP32 for 100% support of ESP32 : [![Build Status](https://travis-ci.org/luc-github/ESP3D.svg?branch=2.0)](https://travis-ci.org/luc-github/ESP3D)   
 
 [All releases](https://github.com/luc-github/ESP3D/wiki)
 
@@ -120,6 +120,9 @@ Check [Wiki](https://github.com/luc-github/ESP3D/wiki/Install-Instructions) and 
 
 ## ESP3D is used by :
 * Custom version is used on azteeg mini wifi : http://www.panucatt.com/azteeg_X5_mini_reprap_3d_printer_controller_p/ax5mini.htm
+* GRBL_Esp32 a GRBL port on ESP32 done by @bdring - https://github.com/bdring/Grbl_Esp32   
+[![](https://img.youtube.com/vi/7vtWNn9jyDs/mqdefault.jpg)](https://www.youtube.com/watch?v=7vtWNn9jyDs)       
+* Marlin_ESP32 a Marlin port on ESP32 done by @simon-jouet is under sync : https://github.com/luc-github/Marlin/tree/eps32_webui 
 * More to come...
 
 If you use ESP3D on your product, drop me a message so I can link your product page here.   
