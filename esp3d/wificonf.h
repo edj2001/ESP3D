@@ -42,13 +42,14 @@ public:
 #ifdef MDNS_FEATURE
     MDNSResponder mdns;
 #endif
+    bool WiFi_on;
     WIFI_CONFIG();
     int iweb_port;
     int idata_port;
     long baud_rate;
     int sleep_mode;
-    int32_t getSignal(int32_t RSSI);
-    bool Setup(bool force_ap = false);
+    int32_t getSignal (int32_t RSSI);
+    bool Setup (bool force_ap = false);
     void Safe_Setup();
     bool Enable_servers();
     bool Disable_servers();
